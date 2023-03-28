@@ -1,6 +1,7 @@
 import csv 
 import os
 
+#os for other systems
 filepath = os.path.join("Resources", "election_data.csv")
 
 #Read file
@@ -59,7 +60,7 @@ print (str(winner))
 
 
 #output
-with open(filepath, "w") as txt_file:
+with open("output.txt", "w") as txt_file:
 
     txt_file.write("Election Results")
     txt_file.write("\n") 

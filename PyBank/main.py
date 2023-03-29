@@ -59,3 +59,20 @@ print(lowestchange)
 print(Dates[greatestchangeindex])
 print(Dates[lowestchangeindex])
 
+#output
+text = (
+        f"-------------------------\n"
+        f"Total Months: {totalmonths}\n"
+        f"Total: {PnLsum:,}\n"
+        f"Average Change: {round(Avgchangessum/len(Avgchanges),2)}\n"
+        f"Greatest Increase: {greatestchange}\n"
+        f"Lowest Increase: {lowestchange}\n"
+        f"-------------------------\n")
+
+print(text)
+
+
+with open (os.path.join("analysis", "output1.txt"), 'w') as file:
+    file.write(text)
+    file.close()
+    pass

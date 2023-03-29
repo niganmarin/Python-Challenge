@@ -1,0 +1,7 @@
+-------------------------
+Total Months: 86
+Total: 22,564,198
+Average Change: -8311.11
+Greatest Increase: 1862002
+Lowest Increase: -1825558
+-------------------------
